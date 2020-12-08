@@ -1,7 +1,35 @@
+html, body { margin: 0; padding: 0;}
   h1 {
     background-color: lightblue;
+    clear: both;
     background-image: url("https://assets.marinemuseum.nl/app/uploads/2020/02/tonijn_marinemuseum_staand-256x448.jpg") no-repeat right top;
+    margin 0;
+    padding: 20px;
   }
 div {
-  background-color: black;
+  background-color: grey;
+}
+
+nav {
+  background-color: grey;
+  height: 40px;
+}
+nav a {
+  background-color: grey;
+  color: #ccc;
+  display: block;
+  width: 200px;
+  padding: 10px 20px;
+  text-decoration: none;
+  float: left;
+  height: 30px;
+  text-align: center;
+}
+nav a:hover {
+  background-color: red;
+}
+footer {
+  color: #ccc;
+  background-color: grey;
+  padding: 10px 30px;
 }
